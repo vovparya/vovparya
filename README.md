@@ -30,7 +30,7 @@
 ![Git](https://img.shields.io/badge/-Git-090909?style=for-the-badge&logo=git)
 ![Linux](https://img.shields.io/badge/-Linux-090909?style=for-the-badge&logo=linux)
 
-   ![Баннер](https://github.com/vovparya/vovparya/blob/main/banner.png)
+   ![Баннер](https://github.com/vovparya/vovparya/blob/main/a-quote-about-future-writing-on-black-background-wallpaper-3000x2000_42.jpg)
 
 ## 🔭 Текущая деятельность
 
