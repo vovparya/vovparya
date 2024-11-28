@@ -29,6 +29,10 @@
 ![C++](https://img.shields.io/badge/-C++-090909?style=for-the-badge&logo=c%2B%2B&logoColor=6296CC)
 ![Git](https://img.shields.io/badge/-Git-090909?style=for-the-badge&logo=git)
 ![Linux](https://img.shields.io/badge/-Linux-090909?style=for-the-badge&logo=linux)
+![Excel](https://img.shields.io/badge/-Excel-090909?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Power Query](https://img.shields.io/badge/-Power%20Query-090909?style=for-the-badge&logo=microsoft-power-bi&logoColor=white)
+![Power Pivot](https://img.shields.io/badge/-Power%20Pivot-090909?style=for-the-badge&logo=microsoft-power-bi&logoColor=white)
+![Photoshop](https://img.shields.io/badge/-Photoshop-090909?style=for-the-badge&logo=adobe-photoshop)
 
    ![Баннер](https://github.com/vovparya/vovparya/blob/main/banner.png)
 
@@ -50,6 +54,8 @@
 - **Опыт руководства** в различных сферах подтверждает мои лидерские качества и умение эффективно работать в команде.
 - **Техническое образование** в области микроэлектроники дополняется степенями бакалавра **экономики** и магистра **менеджмента**.
 - Имею опыт работы с **ценными бумагами**, инвестициями и проведения **деловых переговоров** с инвесторами и руководителями компаний.
+- Опыт работы с **Microsoft Excel**, включая **Power Query** и **Power Pivot**, для комплексного анализа данных и построения интерактивных отчетов.
+- Владение **Adobe Photoshop** для создания графических материалов и визуализаций, что помогает в представлении данных и результатов работы.
 
 ## ⚡ Интересы
 
