@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <style>
+        /* Добавляем стили для горизонтальной формы */
+        .horizontal-form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; /* Если экран будет меньше, элементы перенесутся на новую строку */
+        }
+        .horizontal-form p {
+            margin: 0 10px;
+        }
+        .horizontal-form label {
+            margin-right: 5px;
+        }
+        .horizontal-form input {
+            padding: 5px;
+        }
+        .horizontal-form button {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Регистрация</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    {% if form %}
+        <!-- Используем форму Django -->
+        <form method="post" class="horizontal-form">
+            {% csrf_token %}
+            <!-- Отображаем поля формы в одной строке -->
+            {{ form.username.label_tag }}{{ form.username }}
+            {{ form.password.label_tag }}{{ form.password }}
+            {{ form.repeat_password.label_tag }}{{ form.repeat_password }}
+            {{ form.age.label_tag }}{{ form.age }}
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <p>Или <a href="{% url 'sign_up_by_html' %}">использовать HTML форму</a></p>
+    {% else %}
+        <!-- Используем чистый HTML -->
+        <form method="post" class="horizontal-form">
+            {% csrf_token %}
+            <p>
+                <label for="username">Логин:</label>
+                <input type="text" name="username" id="username" maxlength="30" placeholder="Введите логин" required>
+            </p>
+            <p>
+                <label for="password">Пароль:</label>
+                <input type="password" name="password" id="password" minlength="8" placeholder="Введите пароль" required>
+            </p>
+            <p>
+                <label for="repeat_password">Повторите пароль:</label>
+                <input type="password" name="repeat_password" id="repeat_password" minlength="8" placeholder="Повторите пароль" required>
+            </p>
+            <p>
+                <label for="age">Возраст:</label>
+                <input type="number" name="age" id="age" max="120" placeholder="Ваш возраст" required>
+            </p>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <p>Или <a href="{% url 'sign_up_by_django' %}">использовать форму Django</a></p>
+    {% endif %}
+</body>
+</html>
