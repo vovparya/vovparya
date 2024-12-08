@@ -1,0 +1,14 @@
+{% extends 'menu.html' %}
+
+{% block pagename %}
+Добро пожаловать
+{% endblock %}
+
+{% block pageheader %}
+Добро пожаловать, {{ username }}!
+{% endblock %}
+
+{% block content %}
+<p>Спасибо за регистрацию на нашем сайте.</p>
+<p><a href="{% url 'index' %}">Перейти на главную страницу</a></p>
+{% endblock %}

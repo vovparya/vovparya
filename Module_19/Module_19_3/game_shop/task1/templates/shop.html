@@ -1,0 +1,22 @@
+<!-- task1/templates/shop.html -->
+
+{% extends 'menu.html' %}
+
+{% block pagename %}
+Наш Магазин
+{% endblock %}
+
+{% block pageheader %}
+Наш Магазин
+{% endblock %}
+
+{% block content %}
+<ul>
+    {% for game in games %}
+    <li>
+        {{ game.title }} | {{ game.description }}. Стоимость: {{ game.cost }}
+        <button type="button">Купить</button>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'menu.html' %}
+
+{% block pagename %}
+Регистрация
+{% endblock %}
+
+{% block pageheader %}
+Регистрация
+{% endblock %}
+
+{% block content %}
+
+<style>
+    /* Добавляем стили для горизонтальной формы */
+    .horizontal-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; /* Если экран будет меньше, элементы перенесутся на новую строку */
+    }
+    .horizontal-form p {
+        margin: 0 10px;
+    }
+    .horizontal-form label {
+        margin-right: 5px;
+    }
+    .horizontal-form input {
+        padding: 5px;
+    }
+    .horizontal-form button {
+        padding: 5px 10px;
+    }
+</style>
+
+{% if error %}
+    <p style="color: red;">{{ error }}</p>
+{% endif %}
+
+<form method="post" class="horizontal-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Зарегистрироваться</button>
+</form>
+
+{% endblock %}
