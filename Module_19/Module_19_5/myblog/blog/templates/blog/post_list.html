@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список постов</title>
+    <style>
+        /* Добавляем стили для пагинации */
+        .pagination a, .pagination span {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 2px;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            color: #333;
+            border-radius: 3px;
+        }
+        .pagination .current {
+            background-color: #333;
+            color: #fff;
+            border-color: #333;
+        }
+        .pagination .disabled {
+            color: #999;
+            border-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Список постов</h1>
+
+    <!-- Форма для выбора количества элементов на странице -->
+    <form method="get">
+        <label for="num">Элементов на странице:</label>
+        <select name="num" id="num" onchange="this.form.submit()">
+            <option value="5" {% if num == 5 %}selected{% endif %}>5</option>
+            <option value="10" {% if num == 10 %}selected{% endif %}>10</option>
+            <option value="15" {% if num == 15 %}selected{% endif %}>15</option>
+            <option value="20" {% if num == 20 %}selected{% endif %}>20</option>
+        </select>
+    </form>
+
+    {% for post in page_obj %}
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+    {% empty %}
+        <p>Нет доступных постов.</p>
+    {% endfor %}
+
+    <!-- Включаем кастомный шаблон пагинации -->
+    {% include 'blog/pagination.html' %}
+</body>
+</html>

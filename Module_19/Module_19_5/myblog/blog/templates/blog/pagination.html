@@ -1,0 +1,25 @@
+<div class="pagination">
+    {% if page_obj.has_previous %}
+        <a href="?page=1{% if num %}&num={{ num }}{% endif %}">&laquo; Первая</a>
+        <a href="?page={{ page_obj.previous_page_number }}{% if num %}&num={{ num }}{% endif %}">Предыдущая</a>
+    {% else %}
+        <span class="disabled">&laquo; Первая</span>
+        <span class="disabled">Предыдущая</span>
+    {% endif %}
+
+    {% for num_page in page_obj.paginator.page_range %}
+        {% if num_page == page_obj.number %}
+            <span class="current">{{ num_page }}</span>
+        {% elif num_page >= page_obj.number|add:-2 and num_page <= page_obj.number|add:2 %}
+            <a href="?page={{ num_page }}{% if num %}&num={{ num }}{% endif %}">{{ num_page }}</a>
+        {% endif %}
+    {% endfor %}
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}{% if num %}&num={{ num }}{% endif %}">Следующая</a>
+        <a href="?page={{ page_obj.paginator.num_pages }}{% if num %}&num={{ num }}{% endif %}">Последняя &raquo;</a>
+    {% else %}
+        <span class="disabled">Следующая</span>
+        <span class="disabled">Последняя &raquo;</span>
+    {% endif %}
+</div>
