@@ -4,27 +4,27 @@
 
 ## 💻 Технологии и инструменты
 
-![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=python)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-090909?style=for-the-badge&logo=postgresql)
-![Excel](https://img.shields.io/badge/-Excel-090909?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Power Query](https://img.shields.io/badge/-Power%20Query-090909?style=for-the-badge&logo=microsoft-power-bi&logoColor=white)
-![Power Pivot](https://img.shields.io/badge/-Power%20Pivot-090909?style=for-the-badge&logo=microsoft-power-bi&logoColor=white)
-![Photoshop](https://img.shields.io/badge/-Photoshop-090909?style=for-the-badge&logo=adobe-photoshop)
-![Git](https://img.shields.io/badge/-Git-090909?style=for-the-badge&logo=git)
-![C++](https://img.shields.io/badge/-C++-090909?style=for-the-badge&logo=c%2B%2B&logoColor=6296CC)
-![Go](https://img.shields.io/badge/-Go-090909?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-090909?style=for-the-badge&logo=rust)
-![Linux](https://img.shields.io/badge/-Linux-090909?style=for-the-badge&logo=linux)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-DEA584?style=flat&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
+![Power Query](https://img.shields.io/badge/-Power%20Query-00BDB3?style=flat&logo=microsoft-power-bi&logoColor=white)
+![Power Pivot](https://img.shields.io/badge/-Power%20Pivot-217346?style=flat&logo=microsoft-excel&logoColor=white)
+![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=flat&logo=adobe-photoshop&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ## 🔭 Текущая деятельность
 
 - Закончил курс **Python-разработчика**.
-- Начал изучение **Rust**, **C++**, **Go** и **Kotlin** для расширения технических навыков, углубления в области высокопроизводительных систем и безопасности.
+- Начал изучение **Rust**, **Go** и **Kotlin** для расширения технических навыков, углубления в области высокопроизводительных систем и безопасности.
 
 ## 🌱 Профессиональные цели
 
 - Стремлюсь развиваться в направлениях **Data Science**, **искусственного интеллекта** и **системного программирования**.
-- Интересуюсь разработкой высокопроизводительных и безопасных систем с использованием **C++**, **Rust** и **Go**.
+- Интересуюсь разработкой высокопроизводительных и безопасных систем с использованием **Rust** и **Go**.
 - Моя цель — работать с бизнесом, определять потребности и предлагать эффективные решения.
 - Привлекает динамика и инновационность сферы IT; моя природная любознательность мотивирует постоянно изучать новые технологии и подходы.
 
